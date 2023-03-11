@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>sap_ayush website</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+        <div class="main">
+            <div class="logo">
+                <img src="3.png">
+            </div>
+            <ul>
+                <li class="active"><a href="#about-me">About Me</a></li>
+                <li><a href="#my-skills">My Skills</a></li>
+                <li><a href="#my-history">My History</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+            </ul>
+            <img src="6.png" >
+        </nav>
+        </div>
+        <div class="title">
+            <h1>sap_ayush</h1>
+        </div>
+        <div class="button">
+            <a href="#" class="btn"> WATCH VIDEO</a>
+            <a href="#" class="btn"> KNOW MORE</a>
+        </div>
+    </header>
+    <main>
+        <section id="about-me">
+          <h2>About Me</h2>
+          <div class="row">
+            <div class="col-4">
+              <img src="5.jpg" alt="My Profile Picture">
+            </div>
+            <div class="col-8">
+          <p>Hey, my name is <strong>AyushSingh</strong> and I am passionate about <strong>coding</strong> and <strong>AIs</strong>. Along with that I have interest in the <strong>stocks and investment</strong></p>
+        </section>
+        
+        <section id="my-skills">
+            <h2>My Skills</h2>
+            <ul>
+              <li>I have completed some of the computer languages like C and C++</li>
+              <li>Along with that I work on the <strong>ADOBE</strong> tools for images,videos and animations for the content creations</li>
+              <li>I am also a <strong>NCC</strong> cadet at IIT Bombay itself </li>
+              
+            </ul>
+          </section>
+
+          <section id="my-history">
+            <h2>My History</h2>
+            <ul>
+              <li>Completed 10th from DAV PS</li>
+              <br>
+              <li>12th from Crimson World school</li>
+              
+              <li>Done JEE prep via aakash institute</li>
+              <br>
+              <li>Currently I am a B-tech first year student at iitbombay</li>
+            </ul>
+        </section>
+            <br>
+        <section id="contact-me">
+            <h2>Contact Me</h2>
+            <p>You can contact me via email at <strong>ayushsingh.1one@gmail.com</strong> or follow me on my instagram id <strong>sap_ayush</strong> .</p>
+          </section>
+          <br>
+        </main>
+
+        <footer>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <h4>Contact Me</h4>
+                  <p>Email: ayushsingh.1one@gmail.com<br>
+                  Phone: +91 754392XXXX<br>
+                  Address: IIT Bombay Residential Hostel</p>
+                </div>
+                <div class="col-md-6">
+                  <h4>Follow Me</h4>
+                  <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/sap_ayush"><i class="fa fa-facebook-f"></i></a></li>
+                    <li><a href="https://instagram.com/sap_ayush"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://linkedin.com/sap_ayush"><i class="fa fa-linkedin-in"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <p>&copy; 2023 copyright. All rights reserved.</p>
+                </div>
+              </div>
+            </div>
+          </footer>
+          <script>
+
+            var icon =  document.getElementById("icon");
+
+            icon.oncick = function(){
+                console.log("hi")
+                document.body.classList.toggle("dark-theme");
+                if(document.body.classList.contains("dark-theme")){
+                icon.src = "images/7.png";
+                }else{
+                    icon.src = "images/6.png";
+                }
+            }
+          </script>
+</body>
+</html>
