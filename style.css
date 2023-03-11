@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Century Gothic ;
+}
+
+:root{
+    --primary-color:#edf2fc;
+    --secondary-color: #212121;
+}
+.dark-theme{
+    --primary-color: #000106;
+    --secondary-color: #fff;
+}
+#icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    cursor: pointer;
+    
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)), url(../1.jpg.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+ul li{
+    display: inline-block;
+}
+ul li a{
+     text-decoration:none;
+     color: #090909;
+     padding: 5px 10px;
+     border: 1px solid transparent #090909;
+     transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.main{
+    max-width: 1200px ;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50% ;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-left: 10px;
+}
+
+.title h1{
+    color: #070707;
+    font-size: 70px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.button{
+    position: absolute;
+    top: 60% ;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #090909;
+    padding: 15px 30px;
+    color:  #0b0a0a;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+img {
+    border: 2px solid #ccc; 
+    max-width: 100%; 
+    height: 300px;
+    display: block; 
+    margin: 0 auto;
+    width: 140px;
+  }
+  
+  footer {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    margin-top: 50px;
+  }
+  
+  .footer-bottom {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-bottom p {
+    margin-bottom: 0;
+  }
+  
+  ul.social-icons {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  ul.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  ul.social-icons li:last-child {
+    margin-right: 100px;
+  }
+  
+  ul.social-icons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    background-color: #222;
+    border-radius: 50%;
+  }
+  
+  ul.social-icons li a:hover {
+    background-color: #007bff;
+  }
+  
+  
+  
